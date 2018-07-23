@@ -40,8 +40,7 @@
 
 -(void)createShapes:(UIButton *)sender{
     
-    //arc4random()%7
-    [self.simple setShapesType:SX];
+    [self.simple setShapesType:arc4random()%7];
     
 }
 

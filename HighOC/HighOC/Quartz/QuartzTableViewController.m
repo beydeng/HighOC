@@ -30,6 +30,8 @@
     _arrayData = [@[@{@"title":@"获取上下文",@"class":@"ComeToQuartzViewController"}] mutableCopy];
     
     [_arrayData addObject:@{@"title":@"简单的图形绘画",@"class":@"SimpleShapesDrawingViewController"}];
+    //
+    [_arrayData addObject:@{@"title":@"线条的使用",@"class":@"LineShapesDrawingViewController"}];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     

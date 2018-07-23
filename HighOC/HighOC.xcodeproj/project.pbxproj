@@ -23,6 +23,8 @@
 		074CE36221057FEE00BF90FE /* UIColor+DP.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE36121057FEE00BF90FE /* UIColor+DP.m */; };
 		074CE366210581CD00BF90FE /* SimpleShapesDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE365210581CD00BF90FE /* SimpleShapesDrawingViewController.m */; };
 		074CE3692105837900BF90FE /* SimpleShapesDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3682105837900BF90FE /* SimpleShapesDrawing.m */; };
+		074CE36D2105D6F100BF90FE /* LineShapesDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE36C2105D6F100BF90FE /* LineShapesDrawingViewController.m */; };
+		074CE3702105D70000BF90FE /* LineShapesDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE36F2105D70000BF90FE /* LineShapesDrawing.m */; };
 		076F013821007FA1002790D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F013721007FA1002790D2 /* AppDelegate.m */; };
 		076F014021007FA2002790D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076F013F21007FA2002790D2 /* Assets.xcassets */; };
 		076F014321007FA2002790D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076F014121007FA2002790D2 /* LaunchScreen.storyboard */; };
@@ -86,6 +88,10 @@
 		074CE365210581CD00BF90FE /* SimpleShapesDrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleShapesDrawingViewController.m; sourceTree = "<group>"; };
 		074CE3672105837900BF90FE /* SimpleShapesDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleShapesDrawing.h; sourceTree = "<group>"; };
 		074CE3682105837900BF90FE /* SimpleShapesDrawing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleShapesDrawing.m; sourceTree = "<group>"; };
+		074CE36B2105D6F100BF90FE /* LineShapesDrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineShapesDrawingViewController.h; sourceTree = "<group>"; };
+		074CE36C2105D6F100BF90FE /* LineShapesDrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineShapesDrawingViewController.m; sourceTree = "<group>"; };
+		074CE36E2105D70000BF90FE /* LineShapesDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineShapesDrawing.h; sourceTree = "<group>"; };
+		074CE36F2105D70000BF90FE /* LineShapesDrawing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineShapesDrawing.m; sourceTree = "<group>"; };
 		076F013321007FA1002790D2 /* HighOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076F013621007FA1002790D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		076F013721007FA1002790D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -171,6 +177,7 @@
 		074CE3502105794200BF90FE /* Quartz */ = {
 			isa = PBXGroup;
 			children = (
+				074CE36A2105D6D500BF90FE /* LineShapesDrawing */,
 				074CE3632105814800BF90FE /* SimpleShapesDrawing */,
 				074CE354210579D400BF90FE /* ComeToQuartz */,
 				074CE3512105797100BF90FE /* QuartzTableViewController.h */,
@@ -200,6 +207,17 @@
 				074CE3682105837900BF90FE /* SimpleShapesDrawing.m */,
 			);
 			path = SimpleShapesDrawing;
+			sourceTree = "<group>";
+		};
+		074CE36A2105D6D500BF90FE /* LineShapesDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				074CE36B2105D6F100BF90FE /* LineShapesDrawingViewController.h */,
+				074CE36C2105D6F100BF90FE /* LineShapesDrawingViewController.m */,
+				074CE36E2105D70000BF90FE /* LineShapesDrawing.h */,
+				074CE36F2105D70000BF90FE /* LineShapesDrawing.m */,
+			);
+			path = LineShapesDrawing;
 			sourceTree = "<group>";
 		};
 		076F012A21007FA1002790D2 = {
@@ -431,8 +449,10 @@
 				074CE34B2105759B00BF90FE /* GLOpenDoorAnimation.m in Sources */,
 				076F016E2100804D002790D2 /* RootView.m in Sources */,
 				074CE35721057A1F00BF90FE /* ComeToQuartzViewController.m in Sources */,
+				074CE3702105D70000BF90FE /* LineShapesDrawing.m in Sources */,
 				074CE3532105797100BF90FE /* QuartzTableViewController.m in Sources */,
 				076F014621007FA2002790D2 /* main.m in Sources */,
+				074CE36D2105D6F100BF90FE /* LineShapesDrawingViewController.m in Sources */,
 				076F01762100813E002790D2 /* ViewControllerTransitionViewController.m in Sources */,
 				074CE34E2105759B00BF90FE /* UIViewController+GLTransition.m in Sources */,
 				074CE3492105759B00BF90FE /* GLTransitionManager.m in Sources */,

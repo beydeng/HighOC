@@ -133,14 +133,14 @@
 		074CE3392105759B00BF90FE /* GLAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				074CE33A2105759B00BF90FE /* GLCircleSpreadAnimation.m */,
-				074CE33B2105759B00BF90FE /* GLMiddlePageAnimation.h */,
+				074CE3412105759B00BF90FE /* GLOpenDoorAnimation.h */,
 				074CE33C2105759B00BF90FE /* GLOpenDoorAnimation.m */,
-				074CE33D2105759B00BF90FE /* GLCircleRectSpreadAnimation.h */,
+				074CE33B2105759B00BF90FE /* GLMiddlePageAnimation.h */,
 				074CE33E2105759B00BF90FE /* GLMiddlePageAnimation.m */,
 				074CE33F2105759B00BF90FE /* GLCircleSpreadAnimation.h */,
+				074CE33A2105759B00BF90FE /* GLCircleSpreadAnimation.m */,
+				074CE33D2105759B00BF90FE /* GLCircleRectSpreadAnimation.h */,
 				074CE3402105759B00BF90FE /* GLCircleRectSpreadAnimation.m */,
-				074CE3412105759B00BF90FE /* GLOpenDoorAnimation.h */,
 			);
 			path = GLAnimation;
 			sourceTree = "<group>";

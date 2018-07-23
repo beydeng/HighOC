@@ -1,9 +1,9 @@
 //
 //  GLTransitionContext.h
-//  GLTransitionAnimationDemo
+//  HighOC
 //
-//  Created by Beydeng on 2017/3/24.
-//  Copyright © 2017年 Beydeng. All rights reserved.
+//  Created by Beydeng on 2017/6/30.
+//  Copyright © 2017年 DengPan. All rights reserved.
 //  自定义转场动画的具体实现
 
 #import <Foundation/Foundation.h>

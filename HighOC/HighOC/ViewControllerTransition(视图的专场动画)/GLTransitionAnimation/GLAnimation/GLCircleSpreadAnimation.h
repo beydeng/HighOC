@@ -1,9 +1,9 @@
 //
 //  GLCircleSpreadAnimation.h
-//  GLPushAnimationDemo
+//  HighOC
 //
-//  Created by Beydeng on 2017/3/16.
-//  Copyright © 2017年 Beydeng. All rights reserved.
+//  Created by Beydeng on 2017/6/30.
+//  Copyright © 2017年 DengPan. All rights reserved.
 //  圆圈类型传播
 
 #import "GLTransitionManager.h"

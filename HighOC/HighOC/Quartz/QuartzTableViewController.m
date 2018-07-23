@@ -1,20 +1,21 @@
 //
-//  IndexTableViewController.m
+//  QuartzTableViewController.m
 //  HighOC
 //
-//  Created by DengPan on 2018/7/19.
+//  Created by DengPan on 2018/7/23.
 //  Copyright © 2018年 DengPan. All rights reserved.
 //
 
-#import "IndexTableViewController.h"
+#import "QuartzTableViewController.h"
 
-@interface IndexTableViewController ()
+@interface QuartzTableViewController ()
 {
     NSMutableArray *_arrayData;
 }
+
 @end
 
-@implementation IndexTableViewController
+@implementation QuartzTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,11 +25,11 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.title = @"总结";
+    self.title = @"Quartz";
     
-    _arrayData = [@[@{@"title":@"VC的转场动画",@"class":@"ViewControllerTransitionViewController"}] mutableCopy];
+    _arrayData = [@[@{@"title":@"获取上下文",@"class":@"ComeToQuartzViewController"}] mutableCopy];
     
-    [_arrayData addObject:@{@"title":@"Quartz",@"class":@"QuartzTableViewController"}];
+    [_arrayData addObject:@{@"title":@"简单的图形绘画",@"class":@"SimpleShapesDrawingViewController"}];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     
@@ -54,7 +55,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class]) forIndexPath:indexPath];
-                                                                                           
+    
     NSDictionary *dic = _arrayData[indexPath.row];
     cell.textLabel.text = dic[@"title"];
     
@@ -70,7 +71,7 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     NSDictionary *dic = _arrayData[indexPath.row];
-        
+    
     [self.navigationController pushViewController:[[NSClassFromString(dic[@"class"]) alloc]init] animated:YES];
     
 }

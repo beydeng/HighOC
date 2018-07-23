@@ -15,6 +15,14 @@
 		074CE34D2105759B00BF90FE /* GLCircleRectSpreadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3402105759B00BF90FE /* GLCircleRectSpreadAnimation.m */; };
 		074CE34E2105759B00BF90FE /* UIViewController+GLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3432105759B00BF90FE /* UIViewController+GLTransition.m */; };
 		074CE34F2105759B00BF90FE /* GLInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3462105759B00BF90FE /* GLInteractiveTransition.m */; };
+		074CE3532105797100BF90FE /* QuartzTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3522105797100BF90FE /* QuartzTableViewController.m */; };
+		074CE35721057A1F00BF90FE /* ComeToQuartzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE35621057A1F00BF90FE /* ComeToQuartzViewController.m */; };
+		074CE35A21057A4400BF90FE /* ComeToQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE35921057A4400BF90FE /* ComeToQuartzView.m */; };
+		074CE35D21057AE800BF90FE /* GraphicsFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE35C21057AE800BF90FE /* GraphicsFunctions.m */; };
+		074CE35F21057D1500BF90FE /* Quartz.md in Resources */ = {isa = PBXBuildFile; fileRef = 074CE35E21057D1500BF90FE /* Quartz.md */; };
+		074CE36221057FEE00BF90FE /* UIColor+DP.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE36121057FEE00BF90FE /* UIColor+DP.m */; };
+		074CE366210581CD00BF90FE /* SimpleShapesDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE365210581CD00BF90FE /* SimpleShapesDrawingViewController.m */; };
+		074CE3692105837900BF90FE /* SimpleShapesDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3682105837900BF90FE /* SimpleShapesDrawing.m */; };
 		076F013821007FA1002790D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F013721007FA1002790D2 /* AppDelegate.m */; };
 		076F014021007FA2002790D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076F013F21007FA2002790D2 /* Assets.xcassets */; };
 		076F014321007FA2002790D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076F014121007FA2002790D2 /* LaunchScreen.storyboard */; };
@@ -63,6 +71,21 @@
 		074CE3452105759B00BF90FE /* GLTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTransitionManager.h; sourceTree = "<group>"; };
 		074CE3462105759B00BF90FE /* GLInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLInteractiveTransition.m; sourceTree = "<group>"; };
 		074CE3472105759B00BF90FE /* UIViewController+GLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GLTransition.h"; sourceTree = "<group>"; };
+		074CE3512105797100BF90FE /* QuartzTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzTableViewController.h; sourceTree = "<group>"; };
+		074CE3522105797100BF90FE /* QuartzTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzTableViewController.m; sourceTree = "<group>"; };
+		074CE35521057A1F00BF90FE /* ComeToQuartzViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComeToQuartzViewController.h; sourceTree = "<group>"; };
+		074CE35621057A1F00BF90FE /* ComeToQuartzViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComeToQuartzViewController.m; sourceTree = "<group>"; };
+		074CE35821057A4400BF90FE /* ComeToQuartzView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComeToQuartzView.h; sourceTree = "<group>"; };
+		074CE35921057A4400BF90FE /* ComeToQuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComeToQuartzView.m; sourceTree = "<group>"; };
+		074CE35B21057AE800BF90FE /* GraphicsFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicsFunctions.h; sourceTree = "<group>"; };
+		074CE35C21057AE800BF90FE /* GraphicsFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicsFunctions.m; sourceTree = "<group>"; };
+		074CE35E21057D1500BF90FE /* Quartz.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Quartz.md; sourceTree = "<group>"; };
+		074CE36021057FEE00BF90FE /* UIColor+DP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+DP.h"; sourceTree = "<group>"; };
+		074CE36121057FEE00BF90FE /* UIColor+DP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DP.m"; sourceTree = "<group>"; };
+		074CE364210581CD00BF90FE /* SimpleShapesDrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleShapesDrawingViewController.h; sourceTree = "<group>"; };
+		074CE365210581CD00BF90FE /* SimpleShapesDrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleShapesDrawingViewController.m; sourceTree = "<group>"; };
+		074CE3672105837900BF90FE /* SimpleShapesDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleShapesDrawing.h; sourceTree = "<group>"; };
+		074CE3682105837900BF90FE /* SimpleShapesDrawing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleShapesDrawing.m; sourceTree = "<group>"; };
 		076F013321007FA1002790D2 /* HighOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076F013621007FA1002790D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		076F013721007FA1002790D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,6 +168,40 @@
 			path = GLAnimation;
 			sourceTree = "<group>";
 		};
+		074CE3502105794200BF90FE /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				074CE3632105814800BF90FE /* SimpleShapesDrawing */,
+				074CE354210579D400BF90FE /* ComeToQuartz */,
+				074CE3512105797100BF90FE /* QuartzTableViewController.h */,
+				074CE3522105797100BF90FE /* QuartzTableViewController.m */,
+				074CE35E21057D1500BF90FE /* Quartz.md */,
+			);
+			path = Quartz;
+			sourceTree = "<group>";
+		};
+		074CE354210579D400BF90FE /* ComeToQuartz */ = {
+			isa = PBXGroup;
+			children = (
+				074CE35521057A1F00BF90FE /* ComeToQuartzViewController.h */,
+				074CE35621057A1F00BF90FE /* ComeToQuartzViewController.m */,
+				074CE35821057A4400BF90FE /* ComeToQuartzView.h */,
+				074CE35921057A4400BF90FE /* ComeToQuartzView.m */,
+			);
+			path = ComeToQuartz;
+			sourceTree = "<group>";
+		};
+		074CE3632105814800BF90FE /* SimpleShapesDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				074CE364210581CD00BF90FE /* SimpleShapesDrawingViewController.h */,
+				074CE365210581CD00BF90FE /* SimpleShapesDrawingViewController.m */,
+				074CE3672105837900BF90FE /* SimpleShapesDrawing.h */,
+				074CE3682105837900BF90FE /* SimpleShapesDrawing.m */,
+			);
+			path = SimpleShapesDrawing;
+			sourceTree = "<group>";
+		};
 		076F012A21007FA1002790D2 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +225,7 @@
 		076F013521007FA1002790D2 /* HighOC */ = {
 			isa = PBXGroup;
 			children = (
+				074CE3502105794200BF90FE /* Quartz */,
 				076F017321008104002790D2 /* ViewControllerTransition(视图的专场动画) */,
 				076F016F21008079002790D2 /* Index */,
 				076F016821008022002790D2 /* RootKit */,
@@ -206,6 +264,10 @@
 				076F016A21008039002790D2 /* RootViewController.m */,
 				076F016C2100804D002790D2 /* RootView.h */,
 				076F016D2100804D002790D2 /* RootView.m */,
+				074CE35B21057AE800BF90FE /* GraphicsFunctions.h */,
+				074CE35C21057AE800BF90FE /* GraphicsFunctions.m */,
+				074CE36021057FEE00BF90FE /* UIColor+DP.h */,
+				074CE36121057FEE00BF90FE /* UIColor+DP.m */,
 			);
 			path = RootKit;
 			sourceTree = "<group>";
@@ -338,6 +400,7 @@
 				076F0178210083CC002790D2 /* VCTransition.md in Resources */,
 				076F014321007FA2002790D2 /* LaunchScreen.storyboard in Resources */,
 				076F014021007FA2002790D2 /* Assets.xcassets in Resources */,
+				074CE35F21057D1500BF90FE /* Quartz.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +427,11 @@
 			files = (
 				074CE34A2105759B00BF90FE /* GLCircleSpreadAnimation.m in Sources */,
 				074CE3482105759B00BF90FE /* GLTransitionAnimation.m in Sources */,
+				074CE3692105837900BF90FE /* SimpleShapesDrawing.m in Sources */,
 				074CE34B2105759B00BF90FE /* GLOpenDoorAnimation.m in Sources */,
 				076F016E2100804D002790D2 /* RootView.m in Sources */,
+				074CE35721057A1F00BF90FE /* ComeToQuartzViewController.m in Sources */,
+				074CE3532105797100BF90FE /* QuartzTableViewController.m in Sources */,
 				076F014621007FA2002790D2 /* main.m in Sources */,
 				076F01762100813E002790D2 /* ViewControllerTransitionViewController.m in Sources */,
 				074CE34E2105759B00BF90FE /* UIViewController+GLTransition.m in Sources */,
@@ -374,6 +440,10 @@
 				074CE34D2105759B00BF90FE /* GLCircleRectSpreadAnimation.m in Sources */,
 				076F017F21009E84002790D2 /* SecondViewController.m in Sources */,
 				074CE34C2105759B00BF90FE /* GLMiddlePageAnimation.m in Sources */,
+				074CE35A21057A4400BF90FE /* ComeToQuartzView.m in Sources */,
+				074CE36221057FEE00BF90FE /* UIColor+DP.m in Sources */,
+				074CE366210581CD00BF90FE /* SimpleShapesDrawingViewController.m in Sources */,
+				074CE35D21057AE800BF90FE /* GraphicsFunctions.m in Sources */,
 				076F01722100808D002790D2 /* IndexTableViewController.m in Sources */,
 				074CE34F2105759B00BF90FE /* GLInteractiveTransition.m in Sources */,
 				076F016B21008039002790D2 /* RootViewController.m in Sources */,

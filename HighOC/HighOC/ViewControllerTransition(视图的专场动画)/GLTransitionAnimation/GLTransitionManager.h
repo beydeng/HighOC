@@ -1,9 +1,9 @@
 //
 //  GLTransitionManager.h
-//  GLTransitionAnimationDemo
+//  HighOC
 //
-//  Created by Beydeng on 2017/3/23.
-//  Copyright © 2017年 Beydeng. All rights reserved.
+//  Created by Beydeng on 2017/6/30.
+//  Copyright © 2017年 DengPan. All rights reserved.
 //  转场动画管理类 push pop present dismiss均在此类中进行统一管理
 
 #import <Foundation/Foundation.h>

@@ -7,10 +7,11 @@
 //
 
 #import "ViewControllerTransitionViewController.h"
-#import "AnimationVC.h"
 #import "SecondViewController.h"
+#import "GLCircleSpreadAnimation.h"
+#import "UIViewController+GLTransition.h"
 
-@interface ViewControllerTransitionViewController ()<UINavigationControllerDelegate>
+@interface ViewControllerTransitionViewController ()
 
 @end
 
@@ -21,10 +22,10 @@
     
     self.title = @"VC的转场动画";
     self.view.backgroundColor = [UIColor blueColor];
-    self.navigationController.delegate = self;
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(100, 100, 20, 30);
+    button.frame = CGRectMake(100, 100, 50, 50);
+    button.layer.cornerRadius = 25;
     button.backgroundColor = [UIColor redColor];
     [self.view addSubview:button];
     [button addTarget:self action:@selector(buttonAtion:) forControlEvents:UIControlEventTouchUpInside];
@@ -34,24 +35,15 @@
 
 -(void)buttonAtion:(UIButton *)sender{
     
-    [self.navigationController pushViewController:[[SecondViewController alloc]init] animated:YES];
+
+    GLCircleSpreadAnimation *circleSpreadAnimation = [[GLCircleSpreadAnimation alloc] initWithStartPoint:sender.center radius:25];
+    
+    SecondViewController *secondVc = [[SecondViewController alloc] init];
+    
+    [self gl_pushViewControler:secondVc withAnimation:circleSpreadAnimation];
     
 }
 
--(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
-    
-    AnimationVC *ani = [[AnimationVC alloc]init];
-    ani.transitionType = operation;
-    
-    return ani;
-    
-}
-
-//-(id<UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController{
-//
-//    return [[AnimationVC alloc]init];
-//
-//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

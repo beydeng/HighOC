@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074CE3482105759B00BF90FE /* GLTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3372105759B00BF90FE /* GLTransitionAnimation.m */; };
+		074CE3492105759B00BF90FE /* GLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3382105759B00BF90FE /* GLTransitionManager.m */; };
+		074CE34A2105759B00BF90FE /* GLCircleSpreadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE33A2105759B00BF90FE /* GLCircleSpreadAnimation.m */; };
+		074CE34B2105759B00BF90FE /* GLOpenDoorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE33C2105759B00BF90FE /* GLOpenDoorAnimation.m */; };
+		074CE34C2105759B00BF90FE /* GLMiddlePageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE33E2105759B00BF90FE /* GLMiddlePageAnimation.m */; };
+		074CE34D2105759B00BF90FE /* GLCircleRectSpreadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3402105759B00BF90FE /* GLCircleRectSpreadAnimation.m */; };
+		074CE34E2105759B00BF90FE /* UIViewController+GLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3432105759B00BF90FE /* UIViewController+GLTransition.m */; };
+		074CE34F2105759B00BF90FE /* GLInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3462105759B00BF90FE /* GLInteractiveTransition.m */; };
 		076F013821007FA1002790D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F013721007FA1002790D2 /* AppDelegate.m */; };
 		076F014021007FA2002790D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076F013F21007FA2002790D2 /* Assets.xcassets */; };
 		076F014321007FA2002790D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076F014121007FA2002790D2 /* LaunchScreen.storyboard */; };
@@ -18,7 +26,6 @@
 		076F01722100808D002790D2 /* IndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F01712100808D002790D2 /* IndexTableViewController.m */; };
 		076F01762100813E002790D2 /* ViewControllerTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F01752100813E002790D2 /* ViewControllerTransitionViewController.m */; };
 		076F0178210083CC002790D2 /* VCTransition.md in Resources */ = {isa = PBXBuildFile; fileRef = 076F0177210083CC002790D2 /* VCTransition.md */; };
-		076F017C210087DF002790D2 /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F017B210087DF002790D2 /* AnimationVC.m */; };
 		076F017F21009E84002790D2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F017E21009E84002790D2 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		074CE3372105759B00BF90FE /* GLTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTransitionAnimation.m; sourceTree = "<group>"; };
+		074CE3382105759B00BF90FE /* GLTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTransitionManager.m; sourceTree = "<group>"; };
+		074CE33A2105759B00BF90FE /* GLCircleSpreadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCircleSpreadAnimation.m; sourceTree = "<group>"; };
+		074CE33B2105759B00BF90FE /* GLMiddlePageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMiddlePageAnimation.h; sourceTree = "<group>"; };
+		074CE33C2105759B00BF90FE /* GLOpenDoorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLOpenDoorAnimation.m; sourceTree = "<group>"; };
+		074CE33D2105759B00BF90FE /* GLCircleRectSpreadAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCircleRectSpreadAnimation.h; sourceTree = "<group>"; };
+		074CE33E2105759B00BF90FE /* GLMiddlePageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLMiddlePageAnimation.m; sourceTree = "<group>"; };
+		074CE33F2105759B00BF90FE /* GLCircleSpreadAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCircleSpreadAnimation.h; sourceTree = "<group>"; };
+		074CE3402105759B00BF90FE /* GLCircleRectSpreadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCircleRectSpreadAnimation.m; sourceTree = "<group>"; };
+		074CE3412105759B00BF90FE /* GLOpenDoorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLOpenDoorAnimation.h; sourceTree = "<group>"; };
+		074CE3422105759B00BF90FE /* GLInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLInteractiveTransition.h; sourceTree = "<group>"; };
+		074CE3432105759B00BF90FE /* UIViewController+GLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GLTransition.m"; sourceTree = "<group>"; };
+		074CE3442105759B00BF90FE /* GLTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTransitionAnimation.h; sourceTree = "<group>"; };
+		074CE3452105759B00BF90FE /* GLTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTransitionManager.h; sourceTree = "<group>"; };
+		074CE3462105759B00BF90FE /* GLInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLInteractiveTransition.m; sourceTree = "<group>"; };
+		074CE3472105759B00BF90FE /* UIViewController+GLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GLTransition.h"; sourceTree = "<group>"; };
 		076F013321007FA1002790D2 /* HighOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076F013621007FA1002790D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		076F013721007FA1002790D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,8 +85,6 @@
 		076F01742100813E002790D2 /* ViewControllerTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerTransitionViewController.h; sourceTree = "<group>"; };
 		076F01752100813E002790D2 /* ViewControllerTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTransitionViewController.m; sourceTree = "<group>"; };
 		076F0177210083CC002790D2 /* VCTransition.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VCTransition.md; sourceTree = "<group>"; };
-		076F017A210087DF002790D2 /* AnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationVC.h; sourceTree = "<group>"; };
-		076F017B210087DF002790D2 /* AnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
 		076F017D21009E84002790D2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		076F017E21009E84002790D2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +114,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074CE3362105759B00BF90FE /* GLTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				074CE3392105759B00BF90FE /* GLAnimation */,
+				074CE3422105759B00BF90FE /* GLInteractiveTransition.h */,
+				074CE3442105759B00BF90FE /* GLTransitionAnimation.h */,
+				074CE3372105759B00BF90FE /* GLTransitionAnimation.m */,
+				074CE3452105759B00BF90FE /* GLTransitionManager.h */,
+				074CE3382105759B00BF90FE /* GLTransitionManager.m */,
+				074CE3462105759B00BF90FE /* GLInteractiveTransition.m */,
+				074CE3472105759B00BF90FE /* UIViewController+GLTransition.h */,
+				074CE3432105759B00BF90FE /* UIViewController+GLTransition.m */,
+			);
+			path = GLTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		074CE3392105759B00BF90FE /* GLAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				074CE33A2105759B00BF90FE /* GLCircleSpreadAnimation.m */,
+				074CE33B2105759B00BF90FE /* GLMiddlePageAnimation.h */,
+				074CE33C2105759B00BF90FE /* GLOpenDoorAnimation.m */,
+				074CE33D2105759B00BF90FE /* GLCircleRectSpreadAnimation.h */,
+				074CE33E2105759B00BF90FE /* GLMiddlePageAnimation.m */,
+				074CE33F2105759B00BF90FE /* GLCircleSpreadAnimation.h */,
+				074CE3402105759B00BF90FE /* GLCircleRectSpreadAnimation.m */,
+				074CE3412105759B00BF90FE /* GLOpenDoorAnimation.h */,
+			);
+			path = GLAnimation;
+			sourceTree = "<group>";
+		};
 		076F012A21007FA1002790D2 = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +222,7 @@
 		076F017321008104002790D2 /* ViewControllerTransition(视图的专场动画) */ = {
 			isa = PBXGroup;
 			children = (
-				076F0179210087A7002790D2 /* AnimationVC(动画控制器) */,
+				074CE3362105759B00BF90FE /* GLTransitionAnimation */,
 				076F01742100813E002790D2 /* ViewControllerTransitionViewController.h */,
 				076F01752100813E002790D2 /* ViewControllerTransitionViewController.m */,
 				076F0177210083CC002790D2 /* VCTransition.md */,
@@ -178,15 +230,6 @@
 				076F017E21009E84002790D2 /* SecondViewController.m */,
 			);
 			path = "ViewControllerTransition(视图的专场动画)";
-			sourceTree = "<group>";
-		};
-		076F0179210087A7002790D2 /* AnimationVC(动画控制器) */ = {
-			isa = PBXGroup;
-			children = (
-				076F017A210087DF002790D2 /* AnimationVC.h */,
-				076F017B210087DF002790D2 /* AnimationVC.m */,
-			);
-			path = "AnimationVC(动画控制器)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,13 +362,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074CE34A2105759B00BF90FE /* GLCircleSpreadAnimation.m in Sources */,
+				074CE3482105759B00BF90FE /* GLTransitionAnimation.m in Sources */,
+				074CE34B2105759B00BF90FE /* GLOpenDoorAnimation.m in Sources */,
 				076F016E2100804D002790D2 /* RootView.m in Sources */,
 				076F014621007FA2002790D2 /* main.m in Sources */,
 				076F01762100813E002790D2 /* ViewControllerTransitionViewController.m in Sources */,
+				074CE34E2105759B00BF90FE /* UIViewController+GLTransition.m in Sources */,
+				074CE3492105759B00BF90FE /* GLTransitionManager.m in Sources */,
 				076F013821007FA1002790D2 /* AppDelegate.m in Sources */,
+				074CE34D2105759B00BF90FE /* GLCircleRectSpreadAnimation.m in Sources */,
 				076F017F21009E84002790D2 /* SecondViewController.m in Sources */,
+				074CE34C2105759B00BF90FE /* GLMiddlePageAnimation.m in Sources */,
 				076F01722100808D002790D2 /* IndexTableViewController.m in Sources */,
-				076F017C210087DF002790D2 /* AnimationVC.m in Sources */,
+				074CE34F2105759B00BF90FE /* GLInteractiveTransition.m in Sources */,
 				076F016B21008039002790D2 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

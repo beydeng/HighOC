@@ -7,6 +7,8 @@
 //
 
 #import "SecondViewController.h"
+#import "UIViewController+GLTransition.h"
+#import "GLTransitionManager.h"
 
 @interface SecondViewController ()
 
@@ -17,16 +19,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     self.view.backgroundColor = [UIColor grayColor];
+
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button addTarget:self action:@selector(buttonAtion:) forControlEvents:UIControlEventTouchUpInside];
 
-    button.frame = CGRectMake(100, 100, 20, 30);
+    button.frame = CGRectMake(100, 100, 50, 50);
     button.backgroundColor = [UIColor redColor];
     [self.view addSubview:button];
     
+    __weak typeof(self)weakSelf = self;
+    [self gl_registerBackInteractiveTransitionWithDirection:GLPanEdgeLeft eventBlcok:^{
+        [weakSelf.navigationController popViewControllerAnimated:YES];
+    }];
     
     // Do any additional setup after loading the view.
 }

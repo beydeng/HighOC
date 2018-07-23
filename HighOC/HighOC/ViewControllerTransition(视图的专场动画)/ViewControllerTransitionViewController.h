@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 
-@interface ViewControllerTransitionViewController : RootViewController
+@interface ViewControllerTransitionViewController : RootViewController<UINavigationControllerDelegate>
 
 
 @end

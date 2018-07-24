@@ -33,6 +33,9 @@
     //
     [_arrayData addObject:@{@"title":@"线条的使用",@"class":@"LineShapesDrawingViewController"}];
     
+    //
+    [_arrayData addObject:@{@"title":@"文字和虚线",@"class":@"LineDashViewController"}];
+    
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     
 }

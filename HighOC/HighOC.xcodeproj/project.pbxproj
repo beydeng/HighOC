@@ -37,6 +37,8 @@
 		076F01762100813E002790D2 /* ViewControllerTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F01752100813E002790D2 /* ViewControllerTransitionViewController.m */; };
 		076F0178210083CC002790D2 /* VCTransition.md in Resources */ = {isa = PBXBuildFile; fileRef = 076F0177210083CC002790D2 /* VCTransition.md */; };
 		076F017F21009E84002790D2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F017E21009E84002790D2 /* SecondViewController.m */; };
+		07FBFC352107051A00B9498B /* LineDashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FBFC342107051A00B9498B /* LineDashViewController.m */; };
+		07FBFC382107054400B9498B /* LineDshDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FBFC372107054400B9498B /* LineDshDrawing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +118,10 @@
 		076F0177210083CC002790D2 /* VCTransition.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VCTransition.md; sourceTree = "<group>"; };
 		076F017D21009E84002790D2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		076F017E21009E84002790D2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		07FBFC332107051A00B9498B /* LineDashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineDashViewController.h; sourceTree = "<group>"; };
+		07FBFC342107051A00B9498B /* LineDashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineDashViewController.m; sourceTree = "<group>"; };
+		07FBFC362107054400B9498B /* LineDshDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineDshDrawing.h; sourceTree = "<group>"; };
+		07FBFC372107054400B9498B /* LineDshDrawing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineDshDrawing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +222,10 @@
 				074CE36C2105D6F100BF90FE /* LineShapesDrawingViewController.m */,
 				074CE36E2105D70000BF90FE /* LineShapesDrawing.h */,
 				074CE36F2105D70000BF90FE /* LineShapesDrawing.m */,
+				07FBFC332107051A00B9498B /* LineDashViewController.h */,
+				07FBFC342107051A00B9498B /* LineDashViewController.m */,
+				07FBFC362107054400B9498B /* LineDshDrawing.h */,
+				07FBFC372107054400B9498B /* LineDshDrawing.m */,
 			);
 			path = LineShapesDrawing;
 			sourceTree = "<group>";
@@ -459,7 +469,9 @@
 				076F013821007FA1002790D2 /* AppDelegate.m in Sources */,
 				074CE34D2105759B00BF90FE /* GLCircleRectSpreadAnimation.m in Sources */,
 				076F017F21009E84002790D2 /* SecondViewController.m in Sources */,
+				07FBFC352107051A00B9498B /* LineDashViewController.m in Sources */,
 				074CE34C2105759B00BF90FE /* GLMiddlePageAnimation.m in Sources */,
+				07FBFC382107054400B9498B /* LineDshDrawing.m in Sources */,
 				074CE35A21057A4400BF90FE /* ComeToQuartzView.m in Sources */,
 				074CE36221057FEE00BF90FE /* UIColor+DP.m in Sources */,
 				074CE366210581CD00BF90FE /* SimpleShapesDrawingViewController.m in Sources */,

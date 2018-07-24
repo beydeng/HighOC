@@ -106,6 +106,7 @@
         }
             break;
         case SX:{
+            
             CGContextBeginPath(context);
             CGContextMoveToPoint(context,self.frame.size.width/2, 200);
             CGContextAddLineToPoint(context,self.frame.size.width/2-100, 300);
@@ -119,6 +120,9 @@
             CGContextAddLineToPoint(context,self.frame.size.width/2, 200);
             CGContextClosePath(context);
             CGContextDrawPath(context, kCGPathFillStroke);
+            //这里为什么两个画笔之间的结尾处会出现缺角了？？？、
+            //继续往下看
+            
         }
             break;
         default:

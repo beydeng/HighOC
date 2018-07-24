@@ -55,8 +55,35 @@
     CGContextStrokePath(context);
     
     //将画布下移100
-    CGContextSetStrokeColorWithColor(context, [UIColor yellowColor].CGColor);
-    CGContextSetLineWidth(context, 3.0f);
+    CGContextSetStrokeColorWithColor(context, [UIColor grayColor].CGColor);
+    CGContextSetLineWidth(context, 15.0f);
+    
+    //LineCap和LineJoin的理解
+    /*
+     typedef CF_ENUM(int32_t, CGLineCap) {
+     kCGLineCapButt,//该属性值指定不绘制端点， 线条结尾处直接结束。这是默认值。
+     kCGLineCapRound,//该属性值指定绘制圆形端点， 线条结尾处绘制一个直径为线条宽度的半圆
+     kCGLineCapSquare//该属性值指定绘制方形端点。线条结尾处绘制半个边长为线条宽度的正方形。需要说明的是，这种形状的端点与“butt”形状的端点十分相似，只是采用这种形式的端点的线条略长一点而已
+     };
+     */
+    
+    CGContextSetLineCap(context, kCGLineCapRound);
+    //这里是不是应该想到在上一节里面画扇形的时候，为什么画笔出现缺角的
+    //如何处理呢？？？
+    //我只需要将端点绘制成方块形
+    //CGContextSetLineCap(context, kCGLineCapSquare);
+    //去上一节里面的扇形绘制去试试吧
+    
+    /*
+     typedef CF_ENUM(int32_t, CGLineJoin) {
+     kCGLineJoinMiter,//接合点为尖角
+     kCGLineJoinRound,//接合点为圆角
+     kCGLineJoinBevel//接合点为斜角
+     };
+     */
+    
+//    CGContextSetLineJoin(context, kCGLineJoinRound);
+    
     
     CGContextTranslateCTM(context, 0, 100.0f);
     CGPoint yellowLines[] = {

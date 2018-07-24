@@ -42,10 +42,38 @@
         CGContextAddLineToPoint(context, linePosition, rect.size.height);
         CGContextStrokePath(context);
         linePosition += gridSize;
-        
     }
     
+    CGContextSetLineWidth(context, 2);
+    CGContextSetStrokeColorWithColor(context, [UIColor purpleColor].CGColor);
+    CGContextBeginPath(context);
+    CGContextMoveToPoint(context, gridSize*2, gridSize*6);
+    CGContextAddLineToPoint(context, gridSize*5, gridSize*6);
+    CGContextAddLineToPoint(context, gridSize*6, gridSize*10);
+    CGContextAddLineToPoint(context, gridSize*3, gridSize*10);
+    CGContextClosePath(context);
+    CGContextStrokePath(context);
     
+    //将画布下移100
+    CGContextSetStrokeColorWithColor(context, [UIColor yellowColor].CGColor);
+    CGContextSetLineWidth(context, 3.0f);
+    
+    CGContextTranslateCTM(context, 0, 100.0f);
+    CGPoint yellowLines[] = {
+        
+        CGPointMake(0, gridSize*14),
+        CGPointMake(gridSize*2, gridSize*11),
+        CGPointMake(gridSize*4, gridSize*14),
+        CGPointMake(gridSize*6, gridSize*12),
+        CGPointMake(gridSize*8, gridSize*14),
+        CGPointMake(gridSize*10, gridSize*13),
+        CGPointMake(gridSize*12, gridSize*14),
+        
+    };
+    
+    CGContextAddLines(context, yellowLines, sizeof(yellowLines)/sizeof(yellowLines[0]));
+//    CGContextClosePath(context); //自己体验close 和 stroke
+    CGContextStrokePath(context);
     
 }
 

@@ -52,18 +52,18 @@
     
     DPDrawWhiteGradient(context, rect);
     
-    CGContextSetLineWidth(context, self.strokeWidth); //边线
+    CGContextSetLineWidth(context, self.strokeWidth); //画笔宽度
     
-    CGContextSetRGBStrokeColor(context, 0.2f, 0.2f, 0.2f, 1.0f);//边线颜色
+    CGContextSetRGBStrokeColor(context, 0.2f, 0.2f, 0.2f, 1.0f);//画笔的颜色
 
-    CGContextSetFillColorWithColor(context, [UIColor blueColor].CGColor);
+    CGContextSetFillColorWithColor(context, [UIColor blueColor].CGColor);//填充context颜色
 
     switch (self.shapesType) {
         case CFX:
         {
             CGRect rect0 =  CGRectMake(self.frame.size.width/2-50, 200, 100, 50);
-            CGContextFillRect(context, rect0);
-            CGContextStrokeRect(context, rect0);
+            CGContextFillRect(context, rect0);//填充这个rect
+            CGContextStrokeRect(context, rect0);//画笔画rect
         }
             break;
         case YX:{
@@ -79,9 +79,9 @@
             CGContextAddLineToPoint(context, self.frame.size.width/2-100.0f, 300.f);
             CGContextAddLineToPoint(context, self.frame.size.width/2, 400.f);
             CGContextAddLineToPoint(context, self.frame.size.width/2+100, 300.f);
-            CGContextAddLineToPoint(context, self.frame.size.width/2, 200.f);
+//            CGContextAddLineToPoint(context, self.frame.size.width/2, 200.f);
             CGContextClosePath(context);
-            CGContextDrawPath(context, kCGPathFillStroke);
+            CGContextDrawPath(context, kCGPathFillStroke);//画笔和填充同时进行填充
         }
             break;
         case SJX:{
@@ -89,7 +89,7 @@
             CGContextMoveToPoint(context,self.frame.size.width/2, 200);
             CGContextAddLineToPoint(context, self.frame.size.width/2-100, 300);
             CGContextAddLineToPoint(context, self.frame.size.width/2+100, 300);
-            CGContextAddLineToPoint(context, self.frame.size.width/2, 200);
+//            CGContextAddLineToPoint(context, self.frame.size.width/2, 200);
             CGContextClosePath(context);
             CGContextDrawPath(context, kCGPathFillStroke);
         }
@@ -100,7 +100,7 @@
             CGContextAddLineToPoint(context,self.frame.size.width/2+100, 200);
             CGContextAddLineToPoint(context,self.frame.size.width/2+150, 300);
             CGContextAddLineToPoint(context,self.frame.size.width/2-50, 300);
-            CGContextAddLineToPoint(context,self.frame.size.width/2-100, 200);
+//            CGContextAddLineToPoint(context,self.frame.size.width/2-100, 200);
             CGContextClosePath(context);
             CGContextDrawPath(context, kCGPathFillStroke);            
         }

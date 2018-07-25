@@ -18,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view = [[TransFormsView alloc]initWithFrame:self.view.bounds];
+    TransFormsView *trans = [[TransFormsView alloc]initWithFrame:CGRectMake(0,64, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame)-64)];
+    
+    [self.view addSubview:trans];
     
     // Do any additional setup after loading the view.
 }

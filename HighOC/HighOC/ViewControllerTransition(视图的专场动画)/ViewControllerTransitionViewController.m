@@ -35,7 +35,6 @@
 
 -(void)buttonAtion:(UIButton *)sender{
     
-
     GLCircleSpreadAnimation *circleSpreadAnimation = [[GLCircleSpreadAnimation alloc] initWithStartPoint:sender.center radius:25];
     
     SecondViewController *secondVc = [[SecondViewController alloc] init];
@@ -43,7 +42,6 @@
     [self gl_pushViewControler:secondVc withAnimation:circleSpreadAnimation];
     
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

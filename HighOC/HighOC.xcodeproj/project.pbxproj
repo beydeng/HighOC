@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0748AC5221080E8F00B0EF76 /* TransformsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0748AC5121080E8F00B0EF76 /* TransformsViewController.m */; };
+		0748AC5521080EA300B0EF76 /* TransFormsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0748AC5421080EA300B0EF76 /* TransFormsView.m */; };
 		074CE3482105759B00BF90FE /* GLTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3372105759B00BF90FE /* GLTransitionAnimation.m */; };
 		074CE3492105759B00BF90FE /* GLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE3382105759B00BF90FE /* GLTransitionManager.m */; };
 		074CE34A2105759B00BF90FE /* GLCircleSpreadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074CE33A2105759B00BF90FE /* GLCircleSpreadAnimation.m */; };
@@ -59,6 +61,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0748AC5021080E8F00B0EF76 /* TransformsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformsViewController.h; sourceTree = "<group>"; };
+		0748AC5121080E8F00B0EF76 /* TransformsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformsViewController.m; sourceTree = "<group>"; };
+		0748AC5321080EA300B0EF76 /* TransFormsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransFormsView.h; sourceTree = "<group>"; };
+		0748AC5421080EA300B0EF76 /* TransFormsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransFormsView.m; sourceTree = "<group>"; };
 		074CE3372105759B00BF90FE /* GLTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTransitionAnimation.m; sourceTree = "<group>"; };
 		074CE3382105759B00BF90FE /* GLTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTransitionManager.m; sourceTree = "<group>"; };
 		074CE33A2105759B00BF90FE /* GLCircleSpreadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCircleSpreadAnimation.m; sourceTree = "<group>"; };
@@ -149,6 +155,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0748AC4F21080E7400B0EF76 /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				0748AC5021080E8F00B0EF76 /* TransformsViewController.h */,
+				0748AC5121080E8F00B0EF76 /* TransformsViewController.m */,
+				0748AC5321080EA300B0EF76 /* TransFormsView.h */,
+				0748AC5421080EA300B0EF76 /* TransFormsView.m */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
 		074CE3362105759B00BF90FE /* GLTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +200,7 @@
 		074CE3502105794200BF90FE /* Quartz */ = {
 			isa = PBXGroup;
 			children = (
+				0748AC4F21080E7400B0EF76 /* Transforms */,
 				074CE36A2105D6D500BF90FE /* LineShapesDrawing */,
 				074CE3632105814800BF90FE /* SimpleShapesDrawing */,
 				074CE354210579D400BF90FE /* ComeToQuartz */,
@@ -461,6 +479,7 @@
 				074CE35721057A1F00BF90FE /* ComeToQuartzViewController.m in Sources */,
 				074CE3702105D70000BF90FE /* LineShapesDrawing.m in Sources */,
 				074CE3532105797100BF90FE /* QuartzTableViewController.m in Sources */,
+				0748AC5221080E8F00B0EF76 /* TransformsViewController.m in Sources */,
 				076F014621007FA2002790D2 /* main.m in Sources */,
 				074CE36D2105D6F100BF90FE /* LineShapesDrawingViewController.m in Sources */,
 				076F01762100813E002790D2 /* ViewControllerTransitionViewController.m in Sources */,
@@ -469,6 +488,7 @@
 				076F013821007FA1002790D2 /* AppDelegate.m in Sources */,
 				074CE34D2105759B00BF90FE /* GLCircleRectSpreadAnimation.m in Sources */,
 				076F017F21009E84002790D2 /* SecondViewController.m in Sources */,
+				0748AC5521080EA300B0EF76 /* TransFormsView.m in Sources */,
 				07FBFC352107051A00B9498B /* LineDashViewController.m in Sources */,
 				074CE34C2105759B00BF90FE /* GLMiddlePageAnimation.m in Sources */,
 				07FBFC382107054400B9498B /* LineDshDrawing.m in Sources */,

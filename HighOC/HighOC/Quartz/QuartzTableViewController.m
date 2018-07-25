@@ -37,6 +37,8 @@
     [_arrayData addObject:@{@"title":@"文字和虚线",@"class":@"LineDashViewController"}];
     
     [_arrayData addObject:@{@"title":@"变换",@"class":@"TransformsViewController"}];
+    
+    [_arrayData addObject:@{@"title":@"图片",@"class":@"ImageDrawingViewController"}];
 
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     

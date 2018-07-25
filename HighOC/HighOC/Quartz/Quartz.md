@@ -46,30 +46,30 @@
         - the pattern phase
         - the font smoothing parameter
         - blend mode
-- CGContextRestoreGState 将当前图形状态设置为最近一次保存的状态，即恢复状态。
+ - CGContextRestoreGState 将当前图形状态设置为最近一次保存的状态，即恢复状态。
 
-- Getting and Setting Graphics State Parameters--获取和设置图形状态参数
-- CGContextGetInterpolationQuality 返回当前的图形上下文的插值（插值(Interpolation)是在不天生像素的环境下增长图像像素大小的一种方法,在周围像素色彩的根蒂根基上用算术公式计算亡失像素的色彩。）质量水平。
-- CGContextSetFlatness 设置弯曲的路径中的图形上下文的准确性。
-- CGContextSetInterpolationQuality 设置图形上下文的插值质量水平。
-- CGContextSetLineCap 图形环境中的画线的端点的样式设置。
-- CGContextSetLineDash 设置图形上下文中的虚线的模式。
-- CGContextSetLineJoin 设置图像上下文中的接接线的样式。
-- CGContextSetLineWidth 设置图像上下文中的线的宽度。
-- CGContextSetMiterLimit 设置图像上下文中的连接线的斜接限制。
-- CGContextSetPatternPhase 设置一个上下文的段落模式。
-- CGContextSetFillPattern 在指定的图形上下文设置的填充图案模式。
-- CGContextSetRenderingIntent 在当前图形状态设置渲染意向。
-- CGContextSetShouldAntialias 设置图形上下文的抗锯齿开启或关闭。
-- CGContextSetStrokePattern 在指定的图形上下文设置描边图案。
-- CGContextSetBlendMode
-- CGContextSetAllowsAntialiasing
-- CGContextSetAllowsFontSmoothing
-- CGContextSetShouldSmoothFonts
-- CGContextSetAllowsFontSubpixelPositioning
-- CGContextSetShouldSubpixelPositionFonts
-- CGContextSetAllowsFontSubpixelQuantization
-- CGContextSetShouldSubpixelQuantizeFonts
+ - Getting and Setting Graphics State Parameters--获取和设置图形状态参数
+ - CGContextGetInterpolationQuality 返回当前的图形上下文的插值（插值(Interpolation)是在不天生像素的环境下增长图像像素大小的一种方法,在周围像素色彩的根蒂根基上用算术公式计算亡失像素的色彩。）质量水平。
+ - CGContextSetFlatness 设置弯曲的路径中的图形上下文的准确性。
+ - CGContextSetInterpolationQuality 设置图形上下文的插值质量水平。
+ - CGContextSetLineCap 图形环境中的画线的端点的样式设置。
+ - CGContextSetLineDash 设置图形上下文中的虚线的模式。
+ - CGContextSetLineJoin 设置图像上下文中的接接线的样式。
+ - CGContextSetLineWidth 设置图像上下文中的线的宽度。
+ - CGContextSetMiterLimit 设置图像上下文中的连接线的斜接限制。
+ - CGContextSetPatternPhase 设置一个上下文的段落模式。
+ - CGContextSetFillPattern 在指定的图形上下文设置的填充图案模式。
+ - CGContextSetRenderingIntent 在当前图形状态设置渲染意向。
+ - CGContextSetShouldAntialias 设置图形上下文的抗锯齿开启或关闭。
+ - CGContextSetStrokePattern 在指定的图形上下文设置描边图案。
+ - CGContextSetBlendMode
+ - CGContextSetAllowsAntialiasing
+ - CGContextSetAllowsFontSmoothing
+ - CGContextSetShouldSmoothFonts
+ - CGContextSetAllowsFontSubpixelPositioning
+ - CGContextSetShouldSubpixelPositionFonts
+ - CGContextSetAllowsFontSubpixelQuantization
+ - CGContextSetShouldSubpixelQuantizeFonts
 
 - Constructing Paths--构建路径
 #### These functions are used to define the geometry of the current path. For more information on how paths are defined, see CGPath Reference.这些函数是用来定义路径的几何形状。对于如何定义的路径的更多信息，请参阅CGPath参考。
